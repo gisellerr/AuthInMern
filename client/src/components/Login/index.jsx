@@ -66,6 +66,12 @@ const Login = () => {
 							Sign Up
 						</button>
 					</Link>
+					<Link to="/">
+						<button type="button" className={styles.white_btn}>	
+							{/* TODO: Fix styling (put at bottom of left container) */}
+							Continue as Guest
+						</button>
+					</Link>
 				</div>
 			</div>
 		</div>

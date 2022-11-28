@@ -45,6 +45,12 @@ const Signup = () => {
 							Sign in
 						</button>
 					</Link>
+					<Link to="/">
+						<button type="button" className={styles.white_btn}>	
+							{/* TODO: Fix styling (put at bottom of left container) */}
+							Continue as Guest
+						</button>
+					</Link>
 				</div>
 				<div className={styles.right}>
 					<form className={styles.form_container} onSubmit={handleSubmit}>
